@@ -1,0 +1,33 @@
+CSV Upload & Scraper - Deployment Instructions
+=============================================
+
+1. UPLOAD FILES:
+   - Upload all files in this directory to your server
+   - Maintain the folder structure
+
+2. INSTALL DEPENDENCIES:
+   - Run: npm install
+
+3. BUILD THE APPLICATION:
+   - Run: npm run build
+
+4. START THE APPLICATION:
+   - For production: npm start
+   - For development: npm run dev
+
+5. ENVIRONMENT SETUP:
+   - Ensure Node.js 18+ is installed
+   - Make sure the 'uploads' directory has write permissions
+   - The application will run on port 3000 by default
+
+6. ACCESS THE APPLICATION:
+   - Open your browser to: http://your-domain:3000
+   - Or configure your web server to proxy to this port
+
+7. FEATURES:
+   - Upload CSV files
+   - View and manage uploaded files
+   - Process CSV data row by row
+   - Trigger API functionality
+
+For detailed deployment options, see DEPLOYMENT_GUIDE.md
